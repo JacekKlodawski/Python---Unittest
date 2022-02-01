@@ -18,5 +18,5 @@ class TestShoppingBasketWithNoProduct(unittest.TestCase):
         pass
 
 class TestShoppingBasketWithOneProduct():
-
+    pass
 
