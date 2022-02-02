@@ -18,5 +18,9 @@ class TestShoppingBasketWithNoProduct(unittest.TestCase):
         pass
 
 class TestShoppingBasketWithOneProduct():
-    pass
+
+    @classmethod
+    def setUpClass(cls):
+        print('\n[INFO] Setting up basket with one product...')
+        cls.basket = ShoppingBasket().add_product('milk', 3.0)
 
