@@ -24,3 +24,6 @@ class TestShoppingBasketWithOneProduct():
         print('\n[INFO] Setting up basket with one product...')
         cls.basket = ShoppingBasket().add_product('milk', 3.0)
 
+    def test_total_amount_should_be_one(self):
+        pass
+
