@@ -27,3 +27,6 @@ class TestShoppingBasketWithOneProduct():
     def test_total_amount_should_be_one(self):
         pass
 
+    def test_total_amount_should_raise_error(self):
+        pass
+
