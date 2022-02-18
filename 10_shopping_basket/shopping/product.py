@@ -8,3 +8,5 @@ class Product:
     def __repr__(self):
         return (f"Product(name='{self.name}', price={self.price}, "
                f"quantity={self.quantity})")
+
+
