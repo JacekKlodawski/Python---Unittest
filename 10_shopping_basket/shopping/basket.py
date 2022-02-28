@@ -28,3 +28,4 @@ class ShoppingBasket:
         print('In basket:')
         for product in self.products:
             print(f'\t{product}')
+
