@@ -14,5 +14,6 @@ class CustomersDB:
         cursor = self.connection.cursor()
         sql = """
         INSERT INTO customers
-        VALUES
+        VALUES (:first_name, :second_name, :email, :phone, :country);
         """
+        cursor.execute(sql, locals())
