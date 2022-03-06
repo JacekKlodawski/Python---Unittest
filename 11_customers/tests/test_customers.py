@@ -33,7 +33,6 @@ class TestCustomersDB(unittest.TestCase):
 
         self.connection = connection
 
-
     def tearDown(self):
         self.connection.close()
 
